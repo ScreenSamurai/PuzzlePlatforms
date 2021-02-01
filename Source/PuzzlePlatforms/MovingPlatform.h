@@ -24,4 +24,17 @@ public:
 	UPROPERTY(EditAnywhere)
     float SpeedMovePlatform = 30;
 
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+	FVector TargetLocation;
+
+	void AddActiveTrigger();
+	void RemoveActionTrigger();
+
+
+private:
+	FVector GlobalTargetLocation;
+	FVector GlobalStartLocation;
+
+	UPROPERTY(EditAnywhere)
+	int32 ActiveTigger = 1;
 };
