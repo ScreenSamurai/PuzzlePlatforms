@@ -5,6 +5,7 @@
 #include "Components/BoxComponent.h"
 
 #include "MovingPlatform.h"
+#include "MenuSystem/MainMenu.h"
 
 // Sets default values
 APlatformTrigger::APlatformTrigger()

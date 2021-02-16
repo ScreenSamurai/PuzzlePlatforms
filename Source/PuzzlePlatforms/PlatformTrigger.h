@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "PlatformTrigger.generated.h"
 
+
+
 UCLASS()
 class PUZZLEPLATFORMS_API APlatformTrigger : public AActor
 {
